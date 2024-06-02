@@ -12,7 +12,7 @@ const glassesList = [
     id: 1,
     price: 30,
     name: "GUCCI G8850U",
-    url: "../../public/glasses/glassesImage/v1.png",
+    url: ".././public/glasses/glassesImage/v1.png",
     // ur:"../../public/glasses/glassesImage/v1.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
@@ -20,35 +20,35 @@ const glassesList = [
     id: 2,
     price: 50,
     name: "GUCCI G8759H",
-    url: "../../public/glasses/glassesImage/v2.png",
+    url: ".././public/glasses/glassesImage/v2.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
     id: 3,
     price: 30,
     name: "DIOR D6700HQ",
-    url: "../../public/glasses/glassesImage/v3.png",
+    url: ".././public/glasses/glassesImage/v3.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
     id: 4,
     price: 70,
     name: "DIOR D6005U",
-    url: "../../public/glasses/glassesImage/v4.png",
+    url: ".././public/glasses/glassesImage/v4.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
     id: 5,
     price: 40,
     name: "PRADA P8750",
-    url: "../../public/glasses/glassesImage/v5.png",
+    url: ".././public/glasses/glassesImage/v5.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
     id: 6,
     price: 60,
     name: "PRADA P9700",
-    url: "../../public/glasses/glassesImage/v6.png",
+    url: ".././public/glasses/glassesImage/v6.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
@@ -62,21 +62,21 @@ const glassesList = [
     id: 8,
     price: 100,
     name: "FENDI F8500",
-    url: "../../public/glasses/glassesImage/v8.png",
+    url: ".././public/glasses/glassesImage/v8.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
   {
     id: 9,
     price: 60,
     name: "FENDI F4300",
-    url: "../../public/glasses/glassesImage/v9.png",
+    url: ".././public/glasses/glassesImage/v9.png",
     desc: "Light pink square lenses define these sunglasses, ending with amother of pearl effect tip. ",
   },
 ];
 
 const Glasses = () => {
   const [glass, setGlass] = useState(
-    `../../public/glasses/glassesImage/v1.png`
+    `.././public/glasses/glassesImage/v1.png`
   );
 
   const [glassName, setGlassName] = useState("GUCCI G8850U");
@@ -86,7 +86,7 @@ const Glasses = () => {
   );
 
   const handleChange = (id) => {
-    setGlass(`../../public/glasses/glassesImage/v${id}.png`);
+    setGlass(`.././public/glasses/glassesImage/v${id}.png`);
   };
 
   const handleChangeName = (name) => {
